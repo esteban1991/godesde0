@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github/godesde0/teclado"
-)
+import "github/godesde0/ejercicios"
 
 func main() {
 	// estado, texto := variables.ConviertoATexto(1588)
@@ -16,6 +14,6 @@ func main() {
 
 	// num, mensaje := ejercicios.ConviertoANum("50")
 	// fmt.Println(num, mensaje)
-	teclado.IngresosNumeros()
+	ejercicios.LeerPorTeclado2()
 
 }
